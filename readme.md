@@ -1,7 +1,6 @@
 
 # Object Detection
-This project aims to develop an object detection system to identify and locate objects in images and videos.
-
+Object Detection model using tensorflow.
 
 ### 1.Install Dependencies
     pip install -r requirement.txt
@@ -20,4 +19,8 @@ Captured images are stored in data/images
 
 - Select "Create Rectangle" in edit tab and select the object and give a label name.
 
+### 4.Split datas to train , test and split.
+Datas are distributed among different folder named test , train , val . Each of these folder contains images and labels.
 
+### 5.Data augmentation
+Datas are augmented using albumentations.The stored data along with labels stored in aug_data folder.
