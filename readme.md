@@ -1,6 +1,7 @@
 
 # Object Detection
-Object Detection model using tensorflow.
+This project aims to develop an object detection system to identify and locate objects in images and videos.
+
 
 ### 1.Install Dependencies
     pip install -r requirement.txt
