@@ -1,2 +1,5 @@
 data
 aug_data
+logs
+.git
+.gitignore

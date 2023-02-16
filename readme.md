@@ -28,3 +28,10 @@ Datas are distributed among different folder named test , train , val . Each of 
 Datas are augmented using albumentations.The stored data along with labels will store in aug_data folder.
     
     python data_augmentation.py
+
+### 6.Model Training
+Pretrained model vgg16 is used for training. Output of vgg16 is given to a classification model which check wheather a face present and regression model to predict the position of the face.
+Seperate loss functions are used for classification and regression.
+
+### 7.Save Model
+Model saved as __facetrain.h5__ .
