@@ -36,7 +36,6 @@ Seperate loss functions are used for classification and regression.
 
 ### 7.Save Model
 Model saved as __facetrain.h5__ .
-<<<<<<< HEAD
 
 ### 8.Real time object detection
 Opencv-python is used for real time object detection . It shows a rectangle bounding object if it present in the frame.
